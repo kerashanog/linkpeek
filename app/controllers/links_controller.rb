@@ -66,7 +66,7 @@ class LinksController < ApplicationController
   def upvote
     @link = set_link
     @link.upvote_by current_user
-    
+     
     redirect_to :back
   end
   
