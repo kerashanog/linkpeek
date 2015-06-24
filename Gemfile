@@ -45,4 +45,6 @@ end
 
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.5.1'
+#Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass
+gem 'bootstrap-sass', '~> 3.3.5'
 
