@@ -45,6 +45,8 @@ end
 
 #Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 3.5.1'
-#Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass
+#Twitter's Bootstrap, converted to Sass  and ready to drop into Rails or Compass
 gem 'bootstrap-sass', '~> 3.3.5'
+#Rails gem to allowing records to be votable
+gem 'acts_as_votable', '~> 0.10.0'
 
