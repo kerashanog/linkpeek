@@ -8,6 +8,12 @@
 </head>
 <body>
 
+<div id="notice_wrapper">
+  <% flash.each do |name, msg| %>
+    <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+  <% end %>
+</div>
+
 <header class="navbar navbar-default" role="navigation">
   <div class="navbar-inner">
     <div class="container">
@@ -32,10 +38,6 @@
 </header>
 
 <div id="main_content" class="container">
-  <% flash.each do |name, msg| %>
-    <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
-  <% end %>
-  
   <div id="content" class="col-md-9 center-block">
     <%= yield %>
   </div>

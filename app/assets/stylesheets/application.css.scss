@@ -55,3 +55,19 @@
 		}
 	}
 }
+#notice_wrapper {
+  position: absolute;
+  top: 0px;
+  z-index: 9999;
+  background: rgba(135, 216, 211, 0.5) none repeat scroll 0% 0%;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #777;
+  letter-spacing: 1px;
+  .alert.alert-notice {
+    margin: 0;
+  }
+}
