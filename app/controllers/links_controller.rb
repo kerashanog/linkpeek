@@ -93,3 +93,4 @@ class LinksController < ApplicationController
       params.require(:link).permit(:title, :url)
     end
 end
+ 

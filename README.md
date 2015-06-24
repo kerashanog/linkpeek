@@ -2,11 +2,11 @@
 Rails app keep link like Reddit
 
 User can: 
-*Sign up 
-*Add the link 
+* Sign up 
+* Add the link 
 And also 
-*Comment 
+* Comment 
 Or 
-*Vote up/down link.
+* Vote up/down link.
 
 Enjoy!

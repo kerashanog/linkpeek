@@ -49,4 +49,6 @@ gem 'devise', '~> 3.5.1'
 gem 'bootstrap-sass', '~> 3.3.5'
 #Rails gem to allowing records to be votable
 gem 'acts_as_votable', '~> 0.10.0'
+#Forms made easy!
+gem 'simple_form', '~> 3.1.0'
 
